@@ -43,3 +43,31 @@ void logic();                            // Handles game physics, movement and c
 void setCursorPosition(int x, int y);    // Sets console cursor position to preventscreen flickering
 void hidecursor();                       // Hides the blinking console cursor
 
+
+int main()
+{
+  hideCursor();                          // Hides the annoying blinking cursor
+  setup();                               // Initializes the initial game state
+
+  while (lives > 0)                      // Game loop runs as long as the player has lives remaining
+  {
+    draw();                              // Renders the current state of the game
+    input();                             // Checks for user input
+    logic();                             // Updates game logic and collisions
+    Sleep(50);                           // Adds a small delay (50ms) to control game speed
+  }
+
+  // Game Over screen display
+  system("cls");                         // Clears the console screen
+  printf("\n\n");
+  printf(" =================================================\n");
+  printf("                     GAME OVER                    \n");
+  printf(" =================================================\n");
+  printf("                  Final score: %d\n", score);          // Display the final score
+  printf(" =================================================\n\n");
+  printf("  Press any key to exit...");     // Prompt to exit
+  _getch();                                 // Waits for user key press before exiting
+
+  return 0;                                 // Successfull program termination
+
+}
