@@ -1,9 +1,8 @@
 # Space Invaders Clone 🚀 
-
 "**Defend the Galaxy. Destroy the Invaders. Save the Earth!**"
+---
 
-
-📖 Project Overview
+## 📖 Project Overview
 
 Space Invaders Clone is a space-themed arcade shooting game inspired by the legendary classic game *Space Invaders*. The main objective is to defend the player's spaceship against waves of incoming alien invaders and protect Earth from an extraterrestrial attack.
 
@@ -11,8 +10,8 @@ Players control a spaceship, navigate through the battlefield, and shoot at appr
 
 This project aims to recreate the core gameplay of the original *Space Invaders* while providing an opportunity to explore fundamental programming concepts, game logic, user input handling, collision detection, and score management.
 
-
-🎯 Project Objectives
+---
+## 🎯 Project Objectives
 
 The primary objectives of this project are to:
 
@@ -26,15 +25,15 @@ The primary objectives of this project are to:
 
 5. Apply fundamental programming concepts to a practical project.
 
-
-🎮 Gameplay
+---
+## 🎮 Gameplay
 
 The player takes control of a spaceship positioned in the battlefield. Alien invaders approach from above, and the player must shoot them before they can defeat the player or reach the protected area.
 
 Each successful hit contributes to the player's score. The challenge increases as the player attempts to eliminate enemies and survive the invasion.
 
-
-✨ Key Features
+---
+## ✨ Key Features
 
 1. Player Control: Move the spaceship to navigate the battlefield.
 
@@ -50,8 +49,8 @@ Each successful hit contributes to the player's score. The challenge increases a
 
 7. Classic Arcade Experience: Recreate the excitement of a retro space-shooting game.
 
-
-🛠️ Technologies Used
+---
+## 🛠️ Technologies Used
 
 1. Programming Language: C
 
@@ -59,8 +58,8 @@ Each successful hit contributes to the player's score. The challenge increases a
 
 3. Development Environment: Any compatible C compiler or IDE
 
-
-▶️ How to Run the Project
+---
+## ▶️ How to Run the Project
 
 1. Clone or download this repository.
 
@@ -72,8 +71,8 @@ Each successful hit contributes to the player's score. The challenge increases a
 
 5. Follow the in-game instructions to start playing.
 
-
-📚 Learning Outcomes
+---
+## 📚 Learning Outcomes
 
 Through this project, we aim to strengthen our understanding of programming fundamentals, conditional statements, loops, functions, user input, collision detection, and game-state management. It also provides practical experience in organizing source code and developing a complete game project.
 
