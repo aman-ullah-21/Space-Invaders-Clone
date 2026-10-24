@@ -72,6 +72,8 @@ int main()
 
 }
 
+
+// Rakin's part: 
 // Function to initialize game settings 
 void setup() { 
 playerX = WIDTH / 2;                                          // Places the player at the center of the board   
@@ -108,3 +110,6 @@ void setCursorPosition(int x, int y)
     SetConsoleCursorPosition(hOut, Coord);                     // Moves cursor to specified (x,y) coordinates
 
 }
+
+
+// Aysha's part
