@@ -71,6 +71,7 @@ int main()
   return 0;                                 // Successfull program termination
 
 }
+<<<<<<< HEAD
                                                               // Function to initialize game settings 
 void setup() { 
 playerX = WIDTH / 2;      
@@ -113,3 +114,7 @@ void setCursorPosition(int x, int y)
     SetConsoleCursorPosition(hOut, Coord);                    // Moves cursor to specified (x,y) coordinates
 
 }
+=======
+
+// Rakin's part:
+>>>>>>> e46d75c87772e017999c177da7d7d9c52404607a
