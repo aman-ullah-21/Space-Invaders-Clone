@@ -1,3 +1,4 @@
+//Rakin's part
 // Function to initialize game settings
 void setup() {
     playerX = WIDTH / 2;                          // Places the player at the center of the board
