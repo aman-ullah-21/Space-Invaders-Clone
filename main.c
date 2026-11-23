@@ -182,8 +182,26 @@ void draw()
 
 
 // Aysha's part:
-
-
+// Handles real-time keyboard inputs from the player
+void input() {
+    if (_kbhit())                                                     // Checks if a key has been pressed without pausing
+    {  char ch = _getch();                                             // Reads the pressed character immediately
+        if (ch == 'a' || ch == 'A') 
+        { if (playerX > 0) playerX--;  }                               // Moves left within left boundary
+        
+        else if (ch == 'd' || ch == 'D') 
+        {if (playerX < WIDTH - 1) playerX++; }                     // Moves right within right boundary
+        
+        else if (ch == ' ' && !bulletActive)                           // Fires bullet if none is active
+        { bulletX = playerX;                                          // Aligns bullet X with player X
+            bulletY = HEIGHT - 2;                                       // Places bullet one row above the player
+            bulletActive = true;   }                                     // Activates bullet flight
+        
+        else if (ch == 'q' || ch == 'Q') 
+        {   lives = 0;     }                                            // Ends the game loop immediately
+        
+    }
+}
 
 // Eshita's part: 
 
