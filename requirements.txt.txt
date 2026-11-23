@@ -1,0 +1,24 @@
+# ========================================================
+# Project Name : Space Invaders Clone
+# Course       : CSE 115 (C Programming)
+# File         : requirements.txt (Tools & Libraries List)
+# ========================================================
+
+# 1. Programming Language
+C Programming Language 
+
+# 2. Recommended IDEs & Code Editors (Any one required to compile & run)
+Code::Blocks (with MinGW)
+Visual Studio Code (with C/C++ Extension & MinGW-w64)
+
+
+# 3. Required C Standard & System Header Libraries
+stdio.h      - Standard Input/Output library (printf, standard console text output)
+stdlib.h     - Standard General Utilities library (system("cls") for clearing screen)
+conio.h      - Console Input/Output header (_kbhit() for non-blocking key check, _getch() for instant key capture)
+windows.h    - Windows API header (GetStdHandle, SetConsoleCursorPosition, SetConsoleCursorInfo, Sleep)
+stdbool.h    - Boolean data type support (bool, true, false)
+
+# 4. Version Control & Collaboration Tools
+Git (Version Control System)
+GitHub (Repository hosting and team collaboration)
