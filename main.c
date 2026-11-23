@@ -41,7 +41,7 @@ void draw();                             // Renders the game elements on the scr
 void input();                            // Handles player keyboard inputs
 void logic();                            // Handles game physics, movement and collision detection
 void setCursorPosition(int x, int y);    // Sets console cursor position to preventscreen flickering
-void hidecursor();                       // Hides the blinking console cursor
+void hideCursor();                       // Hides the blinking console cursor
 
 
 int main()
@@ -71,7 +71,6 @@ int main()
   return 0;                                 // Successfull program termination
 
 }
-<<<<<<< HEAD
                   
 
 // Rakin's part:
