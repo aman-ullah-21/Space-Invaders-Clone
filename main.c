@@ -63,13 +63,12 @@ int main()
   printf(" =================================================\n");
   printf("                     GAME OVER                    \n");
   printf(" =================================================\n");
-  printf("                  Final score: %d\n", score);          // Display the final score
+  printf("                  Final score: %d\n", score);                 // Display the final score
   printf(" =================================================\n\n");
-  printf("  Press any key to exit...");     // Prompt to exit
-  _getch();                                 // Waits for user key press before exiting
+  printf("  Press any key to exit...");      // Prompt to exit
+  _getch();                                  // Waits for user key press before exiting
 
-  return 0;                                 // Successfull program termination
-
+  return 0;
 }
                   
 
